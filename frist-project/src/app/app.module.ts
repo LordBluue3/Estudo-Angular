@@ -5,12 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { MyFristComponent } from './my-frist/my-frist.component';
 import { MySecondComponent } from './my-second/my-second.component';
+import { CursesComponent } from './curse/curses/curses.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     MyFristComponent,
-    MySecondComponent
+    MySecondComponent,
+    CursesComponent
   ],
   imports: [
     BrowserModule,
